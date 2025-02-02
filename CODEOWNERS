@@ -86,6 +86,7 @@ source/_integrations/automation.markdown @home-assistant/core
 source/_integrations/avea.markdown @pattyland
 source/_integrations/awair.markdown @ahayworth @danielsjf
 source/_integrations/axis.markdown @Kane610
+source/_integrations/axion_dmx.markdown @Vrncanac
 source/_integrations/azure_data_explorer.markdown @kaareseras
 source/_integrations/azure_devops.markdown @timmo001
 source/_integrations/azure_event_hub.markdown @eavanvalkenburg

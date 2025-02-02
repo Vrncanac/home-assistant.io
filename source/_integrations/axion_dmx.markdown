@@ -82,3 +82,18 @@ Set the RGBW color of the light entity using DMX channels - 5 channels will be o
 | ----------------------- | ----------------------------------------------------- |
 | `channel`               | The entity ID of the light (the DMX channel number starting from 1) to be controlled.          |
 | `rgbww_color`           | The color to set, specified as an RGBWW value.          |
+
+
+## Removal instructions
+
+To remove the Axion Lighting integration from Home Assistant:
+
+1. Navigate to Settings > Devices & Services.
+
+2. Locate the Axion Lighting integration.
+
+3. Click Options (three-dot menu) and select Delete.
+
+4. Confirm the removal.
+
+This will delete the integration and remove all associated entities from Home Assistant. If needed, you can re-add the integration at any time following the installation steps.

@@ -22,14 +22,16 @@ To use this integration, you will need an Axion Lighting system that supports DM
 
 ### Configuration Options
 
-When setting up the Axion Lighting integration, you can configure the following options:
+The Axion Lighting integration requires the following parameters during setup:
 
-| Parameter               | Description                                           |
-| ----------------------- | ----------------------------------------------------- |
-| `ip_address`            | The IP address of the DMX controller. |
-| `password`              | The password required to access the DMX controller. |
-| `dmx_channel`           | The starting DMX channel for the light entity. The channels are numbered starting from 1. |
-| `light_type`            | The type of light entity to control (e.g., White, Tunable White, RGB, RGBW, RGBWW). |
+| Parameter      | Required | Description |
+|--------------|----------|-------------|
+| `ip_address` |  Yes  | The IP address of the Axion DMX controller. |
+| `password`   |  Yes  | The password required to authenticate with the DMX controller. |
+| `dmx_channel` |  Yes  | The starting DMX channel for the light entity. The channels are numbered starting from 1. |
+| `light_type` |  Yes  | The type of light entity to control (e.g., White, Tunable White, RGB, RGBW, RGBWW). |
+
+These options must be provided during the configuration process through Home Assistant’s UI. Once set up, they can be modified in the integration settings.
 
 ## Light Entities
 
@@ -82,7 +84,6 @@ Set the RGBW color of the light entity using DMX channels - 5 channels will be o
 | ----------------------- | ----------------------------------------------------- |
 | `channel`               | The entity ID of the light (the DMX channel number starting from 1) to be controlled.          |
 | `rgbww_color`           | The color to set, specified as an RGBWW value.          |
-
 
 ## Removal instructions
 

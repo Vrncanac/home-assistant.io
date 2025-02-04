@@ -68,7 +68,7 @@ light:
 #### Example UI Controls
 
 <p class='img'>
-  <img src='/images/screenshots/Axion_lighting_localUI.png' />
+  <img src='/images/screenshots/Axion_lighting_localUI.png' alt='Screenshot of Axion Lighting UI displaying integration options' />
 </p>
 
 ### Services

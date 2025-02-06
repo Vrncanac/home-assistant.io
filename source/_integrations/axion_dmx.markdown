@@ -22,8 +22,8 @@ To use this integration, you will need an Axion Lighting system that supports DM
 
 - The DMX controller must be on the same network as Home Assistant.
 - The controller should have a static IP or a DHCP reservation.
-- Ensure that firewall settings allow communication on the necessary ports (consult Axion Lighting documentation for specific port requirements).
-- IPv4 is required; IPv6 support is currently unknown.
+- Ensure that firewall settings allow communication on the necessary port 4005.
+- IPv4 is required; IPv6 support is currently unsupported.
 
 {% include integrations/config_flow.md %}
 
